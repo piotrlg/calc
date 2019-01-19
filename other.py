@@ -4,6 +4,11 @@ def add_suffix(s):
     """
     return "Tosia " + s
 
+def add_prefix(s):
+    """
+    Add prefix 's'
+    """
+    return s + " Tosia"
 
 if __name__ == "__main__":
     add_suffix("bolek")
