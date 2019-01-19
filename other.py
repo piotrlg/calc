@@ -1,6 +1,9 @@
-def run_me():
-    print("obcy plik\n")
+def add_suffix(s):
+    """
+    Add sufix 's'
+    """
+    return "Tosia " + s
 
 
 if __name__ == "__main__":
-    run_me()
+    add_suffix("bolek")
