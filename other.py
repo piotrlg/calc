@@ -10,5 +10,8 @@ def add_prefix(s):
     """
     return s + " Tosia"
 
+def add_feature():
+    return "feature"
+
 if __name__ == "__main__":
     add_suffix("bolek")
