@@ -4,11 +4,13 @@ def add_suffix(s):
     """
     return "Tosia " + s
 
+
 def add_prefix(s):
     """
     Add prefix 's'
     """
     return s + " Tosia"
+
 
 def add_both(s):
     """
@@ -16,8 +18,10 @@ def add_both(s):
     """
     return s + " Samosia " + s
 
+
 def add_feature():
     return "feature"
+
 
 if __name__ == "__main__":
     add_suffix("bolek")
