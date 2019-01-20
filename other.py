@@ -16,5 +16,8 @@ def add_both(s):
     """
     return s + " Samosia " + s
 
+def add_feature():
+    return "feature"
+
 if __name__ == "__main__":
     add_suffix("bolek")
